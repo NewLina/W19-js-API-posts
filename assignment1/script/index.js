@@ -11,7 +11,7 @@ function makeLayout(object) {
         main.innerHTML += displayPost;
 }
 
-document.addEventListener('DOMContentLoaded', function (event) {
+document.addEventListener('DOMContentLoaded', function () {
     fetch('https://jsonplaceholder.typicode.com/posts', {
         method: 'GET'
     })
