@@ -1,0 +1,81 @@
+.page {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: tomato;
+}
+.wrapper{
+    margin: 0% 7% 5% 7%;
+    padding: 2% 5% 5% 5%;
+    max-width: 100%;
+    background-color: #fff;
+}
+.heading{
+text-align: center;
+font-size: 2.6vw;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+}
+
+.container__heading{
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.container__input{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    font-size: 1.5vw;
+}
+
+.container__input__title, .container__input__content{
+    flex-grow: 1;
+    padding: 1%;
+    border: none;
+    border-bottom: 2px solid tomato;
+}
+
+.container__input__button{
+    width: 20%;
+    padding: 1.5%;
+    margin-left: 2%;
+    background-color: tomato;
+    color: white;
+    border: rgb(143, 31, 16);
+    cursor: pointer;
+}
+
+.container__input__button:hover{
+    background-color: rgb(233, 123, 103);
+    transform: scale(1.01);
+}
+
+.post-container{
+    padding-top: 10vw;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+    padding: 2% 2% 2% 2%;
+    margin-bottom: 4vw;
+    border: 2px dashed tomato;
+    justify-content: center;
+}
+
+.post__title{
+    font-size: 1.8vw;
+    font-weight: 700;
+}
+
+.post__content{
+    font-size: 1.5vw;
+}
